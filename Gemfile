@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'rb-readline'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -62,5 +62,4 @@ gem 'devise'
 gem 'devise-guests', '~> 0.5'
 group :development, :test do
   gem 'fcrepo_wrapper'
-  gem 'rspec-rails'
 end
